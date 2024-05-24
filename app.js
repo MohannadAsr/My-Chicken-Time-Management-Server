@@ -22,12 +22,10 @@ app.use((req, res, next) => {
 
 //Normal Get Request
 app.get('/', (req, res) => {
-  res
-    .status(200)
-    .json({
-      message: 'Welcome to my Server',
-      app: 'My Chicken Time Management',
-    });
+  res.status(200).json({
+    message: 'Welcome to my Server',
+    app: 'My Chicken Time Management',
+  });
 });
 
 app.use('/users', usersRouter);
