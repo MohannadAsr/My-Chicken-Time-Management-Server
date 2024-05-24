@@ -2,7 +2,7 @@ const { DataTypes } = require('sequelize');
 const Users = require('./Users');
 
 module.exports = (sequelize) => {
-  const UserModel = Users(sequelize); // Call the Vips model definition function
+  const UserModel = Users(sequelize);
 
   const TimeSlot = sequelize.define('TimeSlot', {
     id: {

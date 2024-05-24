@@ -46,6 +46,16 @@ Object.keys(db).forEach((modelName) => {
   }
 });
 
+const Users = require('./Users')(sequelize);
+const TimeSlot = require('./TimeSlot')(sequelize);
+
+// Define associations after models are imported
+Users.hasMany(TimeSlot, {
+  foreignKey: 'userId',
+  onDelete: 'CASCADE',
+  onUpdate: 'CASCADE',
+});
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 

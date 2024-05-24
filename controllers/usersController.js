@@ -1,4 +1,4 @@
-const { Users } = require('../models');
+const { Users, TimeSlots } = require('../models');
 const AppError = require('../utils/appError');
 const catchAsync = require('../utils/catchAsync');
 const jwt = require('jsonwebtoken');
@@ -32,6 +32,7 @@ exports.createUser = catchAsync(async (req, res, next) => {
 exports.deleteUsers = catchAsync(async (req, res) => {
   const userIds = req.body;
   // Delete users based on the provided array of user IDs
+
   const deletedUsers = await Users.destroy({
     where: { id: userIds },
   });

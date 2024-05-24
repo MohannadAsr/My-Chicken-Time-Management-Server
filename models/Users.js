@@ -1,6 +1,8 @@
 const { DataTypes } = require('sequelize');
+const TimeSlot = require('./TimeSlot');
 
 module.exports = (sequelize) => {
+  // const TimeSlotModel = TimeSlot(sequelize);
   const Users = sequelize.define('Users', {
     id: {
       type: DataTypes.UUID,
