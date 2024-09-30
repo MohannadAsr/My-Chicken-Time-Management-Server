@@ -1,25 +1,25 @@
 {
   "development": {
-    "username": "ujx5hndydc0jqiz1",
-    "password": "huWQTRnYe3P4uEG0Gchb",
-    "database": "b5qev3sizq3oz0kcn8du",
-    "host": "b5qev3sizq3oz0kcn8du-mysql.services.clever-cloud.com",
+    "username": "mohannad",
+    "password": "MyStr0ng#Pass",
+    "database": "mychicken-timer",
+    "host": "c10efba.online-server.cloud",
     "port": 3306,
     "dialect": "mysql"
   },
   "test": {
-    "username": "ujx5hndydc0jqiz1",
-    "password": "huWQTRnYe3P4uEG0Gchb",
-    "database": "b5qev3sizq3oz0kcn8du",
-    "host": "b5qev3sizq3oz0kcn8du-mysql.services.clever-cloud.com",
+    "username": "mohannad",
+    "password": "MyStr0ng#Pass",
+    "database": "mychicken-timer",
+    "host": "c10efba.online-server.cloud",
     "port": 3306,
     "dialect": "mysql"
   },
   "production": {
-    "username": "ujx5hndydc0jqiz1",
-    "password": "huWQTRnYe3P4uEG0Gchb",
-    "database": "b5qev3sizq3oz0kcn8du",
-    "host": "b5qev3sizq3oz0kcn8du-mysql.services.clever-cloud.com",
+    "username": "mohannad",
+    "password": "MyStr0ng#Pass",
+    "database": "mychicken-timer",
+    "host": "c10efba.online-server.cloud",
     "port": 3306,
     "dialect": "mysql"
   }
